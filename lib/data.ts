@@ -153,7 +153,7 @@ const products: IProductInput[] = [
       name: "Women's Pink Blazer with Jeans",
       slug: toSlug("Women's Pink Blazer with Jeans"),
       category: "Casuals",
-      images: ['/images/p6-1.jpg', '/images/p6-2.jpg, /images/p6-3.jpg'],
+      images: ['/images/p6-1.jpg', '/images/p6-2.jpg', '/images/p6-3.jpg'],
       tags: ['best-seller', 'todays-deal'],
       isPublished: true,
       price: 69.99,
@@ -177,7 +177,7 @@ const products: IProductInput[] = [
       reviews: [],
     },
     {
-      name: "Women's Pink Faux Fur Coat",
+      name: "Women's Pink Faux",
       slug: toSlug("Women's Pink Faux Fur Coat"),
       category: "Outerwear",
       images: ['/images/p7-1.jpg', '/images/p7-2.jpg'],
@@ -205,7 +205,7 @@ const products: IProductInput[] = [
     },
     {
       name: "Women's Pink Faux Fur Coat",
-      slug: "toSlug('Women's Pink Faux Fur Coat')",
+      slug: toSlug("Women's Pink Faux Fur Coat"),
       category: "Outerwear",
       images: ['/images/p8-1.jpg'],
       tags: ['featured'],
