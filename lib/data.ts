@@ -33,6 +33,31 @@ const data = {
         href: '/page/help',
       },
     ],
+    //Carousels
+    carousels: [
+        {
+          title: 'From Streetwear to Statement — We’ve Got Your Look',
+          buttonCaption: 'Shop Now',
+          image: '/images/banner3.png',
+          url: '/search?category=Casuals',
+          isPublished: true,
+        },
+        {
+          title: 'Step Into Fashion. Step Into Confidence.',
+          buttonCaption: 'Shop Now',
+          image: '/images/banner1.png',
+          url: '/search?category=Bold',
+          isPublished: true,
+        },
+        {
+          title: 'Unleash Your Style — Wear the Trend, Be the Trend',
+          buttonCaption: 'See More',
+          image: '/images/banner2.png',
+          url: '/search?category=Trendy',
+          isPublished: true,
+        },
+      ],
   }
+  
   
   export default data
