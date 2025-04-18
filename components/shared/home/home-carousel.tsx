@@ -47,8 +47,8 @@ export function HomeCarousel({
                   className='object-cover'
                   priority
                 />
-                <div className='absolute w-1/3 left-16 md:left-32 top-1/2 transform -translate-y-1/2'>
-                  <h2 className='text-sm md:text-5xl lg:text-7xl font-bold mb-4 text-primary'>
+                <div className='absolute w-1/3 left-10 md:left-32 top-1/2 transform -translate-y-1/2'>
+                  <h2 className='text-sm md:text-5xl lg:text-7xl font-bold  text-primary'>
                     {item.title}
                   </h2>
                   <Button className='hidden md:block'>
