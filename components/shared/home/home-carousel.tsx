@@ -51,7 +51,7 @@ export function HomeCarousel({
                   <h2 className='text-sm md:text-5xl lg:text-7xl font-bold  text-primary'>
                     {item.title}
                   </h2>
-                  <Button className='hidden md:block'>
+                  <Button className='hidden md:block mt-4'>
                     {item.buttonCaption}
                   </Button>
                 </div>
