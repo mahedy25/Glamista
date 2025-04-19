@@ -4,3 +4,5 @@ export const APP_SLOGAN =
 export const APP_DESCRIPTION =
   process.env.NEXT_PUBLIC_APP_DESCRIPTION ||
   "An Ecommerce Website Created With Next.js, MongoDB, Tailwind CSS, TypeScript and Next Auth."
+
+  export const PAGE_SIZE = Number(process.env.PAGE_SIZE || 9)

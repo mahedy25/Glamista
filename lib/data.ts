@@ -118,7 +118,7 @@ const products: IProductInput[] = [
       countInStock: 14,
       description: "Lightweight and stylish chiffon blouse featuring a classic polka dot pattern. Perfect for everyday wear or dressing up for a casual event. Features long, slightly puffed sleeves and a button-up front.",
       sizes: ["XS", "S", "M", "L", "XL"],
-      colors: ["Black", "White", "Navy Blue"],
+      colors: ["Black", "White", "Blue"],
   
       reviews: [],
     },
@@ -145,7 +145,7 @@ const products: IProductInput[] = [
       countInStock: 15,
       description: "Stylish denim jacket paired with a chic black hat.  Perfect for a trendy, casual look. The jacket features a classic design with button closure and a comfortable fit.",
       sizes: ["S", "M", "L", "XL"],
-      colors: ["Light Blue Denim", "Black", "White"],
+      colors: ["Light Blue", "Black", "White"],
   
       reviews: [],
     },
@@ -153,7 +153,10 @@ const products: IProductInput[] = [
       name: "Women's Pink Blazer with Jeans",
       slug: toSlug("Women's Pink Blazer with Jeans"),
       category: "Casuals",
-      images: ['/images/p6-1.jpg', '/images/p6-2.jpg', '/images/p6-3.jpg'],
+      images: [
+        '/images/p6-1.jpg', 
+        '/images/p6-2.jpg',
+        '/images/p6-3.jpg',],
       tags: ['best-seller', 'todays-deal'],
       isPublished: true,
       price: 69.99,
@@ -205,7 +208,7 @@ const products: IProductInput[] = [
     },
     {
       name: "Women's Pink Faux Fur Coat",
-      slug: toSlug("Women's Pink Faux Fur Coat"),
+      slug: toSlug("Women's Pink Faux"),
       category: "Outerwear",
       images: ['/images/p8-1.jpg'],
       tags: ['featured'],
@@ -416,7 +419,7 @@ const products: IProductInput[] = [
       numSales: 48,
       description: "Chic purple top paired with jeans and a stylish hat. This trendy outfit is perfect for a casual day out.",
       sizes: ["XS", "S", "M", "L", "XL"],
-      colors: ["Purple", "Blue Denim", "Black"],
+      colors: ["Purple", "Blue", "Black"],
   
       reviews: [],
     },
@@ -525,7 +528,7 @@ const products: IProductInput[] = [
       numSales: 48,
       description: "Casual striped dress paired with a stylish hat and a shopping bag. This comfortable and chic outfit is perfect for a day out shopping or a casual outing.",
       sizes: ["XS", "S", "M", "L", "XL"],
-      colors: ["Blue/White Stripe", "Beige", "Pink"],
+      colors: ["light blue", "Beige", "Pink"],
   
       reviews: [],
     },
@@ -557,7 +560,7 @@ const products: IProductInput[] = [
       reviews: [],
     },
     {
-      name: "Women's Beige Trench Coat with Black Hat",
+      name: "Women's Beige Trench Coat ",
       slug: toSlug("Women's Beige Trench Coat"),
       category: "Outerwear",
       images: ['/images/p21-1.jpg'],
@@ -800,6 +803,8 @@ const products: IProductInput[] = [
       reviews: [],
     },
   ]
+
+
 
 const data: Data = {
 
