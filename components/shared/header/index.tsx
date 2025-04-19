@@ -11,11 +11,11 @@ export default function Header() {
   return (
     <header className='bg-black  text-white'>
       <div className='px-2'>
-        <div className='flex items-center justify-between'>
+        <div className='flex flex-col sm:flex-row items-center justify-between'>
           <div className='flex items-center'>
             <Link
               href='/'
-              className='flex items-center header-button font-extrabold text-2xl m-1 '
+              className='flex items-center header-button font-extrabold text-xl sm:text-2xl gap-3 m-1 '
             >
               <Image
                 src='/icons/logo.png'
