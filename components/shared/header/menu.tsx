@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import CartButton from './cart-button'
+import { ModeToggle } from '@/components/modeToggle'
 
 export default function Menu() {
   return (
@@ -9,6 +10,10 @@ export default function Menu() {
           Hello, SIgn in
         </Link>
 
+        <div className='mt-1'>
+        <ModeToggle/>
+        </div>
+        
         <CartButton />
       </nav>
     </div>

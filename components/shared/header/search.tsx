@@ -33,7 +33,7 @@ export default async function Search() {
     name='q'
     type='search'
     placeholder={`Search Site ${APP_NAME}`}
-    className='h-full rounded-none border-y border-gray-300 bg-gray-100 font-semibold text-black text-base px-3'
+    className='h-full rounded-none border-y border-gray-300 bg-gray-100 dark:bg-gray-800 font-semibold text-black dark:text-white text-base px-3'
   />
 
   {/* Submit Button */}

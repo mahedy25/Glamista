@@ -113,7 +113,7 @@ export default function CartPage() {
                         </div>
                       </div>
                       <div>
-                        <p className='text-right justify-between flex'>
+                        <h1 className='text-right justify-between flex'>
                          <div className='sm:hidden font-semibold text-xl'>
                             Item Price:
                          </div>
@@ -131,7 +131,7 @@ export default function CartPage() {
                               plain
                             />
                           </span>
-                        </p>
+                        </h1>
                       </div>
                     </div>
                   ))}
