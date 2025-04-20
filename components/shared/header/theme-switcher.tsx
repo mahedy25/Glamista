@@ -24,6 +24,9 @@ export default function ThemeSwitcher() {
   }
   const isMounted = useIsMounted()
   return (
+    <div className='ml-3'>
+
+   
     <DropdownMenu>
       <DropdownMenuTrigger className='header-button h-[41px]'>
         {theme === 'dark' && isMounted ? (
@@ -68,5 +71,6 @@ export default function ThemeSwitcher() {
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>
     </DropdownMenu>
+    </div>
   )
 }

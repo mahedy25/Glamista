@@ -23,6 +23,7 @@ export default async function Header() {
                 width={40}
                 height={40}
                 alt={`${APP_NAME} logo`}
+                style={{ height: "50px", width: "auto" }} // ✅ Also valid
               />
               {APP_NAME}
             </Link>
