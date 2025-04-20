@@ -17,6 +17,7 @@ export default function Menu() {
         
         <CartButton />
       </nav>
+
     </div>
   )
 }
