@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['utfs.io'], // ✅ allow utfs.io for external images
+  },
 };
 
 export default nextConfig;
